@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="반려동물 정보"
+            android:text="사용자 정보"
             android:textSize="20sp"
             android:textStyle="bold"/>
     </LinearLayout>
@@ -123,18 +123,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="태어난 날"
+            android:text="반려동물 이름"
             android:textSize="15sp"
             android:textStyle="bold"
             android:layout_marginRight="10dp"/>
 
         <EditText
-            android:id="@+id/edit_birthday"
+            android:id="@+id/pet_name"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:background="#E4E4E4"
-            android:layout_marginLeft="28dp"/>
+            android:layout_marginLeft="60dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -147,66 +147,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="데려온 날"
+            android:text="작성한 다이어리 수"
             android:textSize="15sp"
             android:textStyle="bold"
             android:layout_marginRight="10dp"/>
 
         <EditText
-            android:id="@+id/edit_adoptionday"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:background="#E4E4E4"
-            android:layout_marginLeft="28dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_marginBottom="20dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="종류"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:layout_marginRight="10dp"/>
-
-        <EditText
-            android:id="@+id/edit_species"
-            android:layout_width="250dp"
+            android:id="@+id/diary_cnt"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:background="#E4E4E4"
-            android:layout_marginLeft="58dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_marginBottom="20dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="특이사항"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:layout_marginRight="10dp"/>
-
-        <EditText
-            android:id="@+id/edit_uniqueness"
-            android:layout_width="250dp"
-            android:layout_height="100dp"
-            android:inputType="text"
-            android:background="#E4E4E4"
-            android:layout_marginLeft="30dp"/>
+            android:layout_marginLeft="30dp"
+            android:enabled="false"/>
     </LinearLayout>
 
     <View
@@ -220,8 +173,8 @@
         android:id="@+id/btn_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="등록하기"
+        android:text="저장하기"
         android:textSize="15sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#3F51B5"/>
 </LinearLayout>
