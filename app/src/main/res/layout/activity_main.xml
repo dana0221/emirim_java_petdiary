@@ -26,30 +26,12 @@
         android:src="@drawable/logo"
         android:layout_marginBottom="30dp"/>
 
-    <LinearLayout
-        android:id="@+id/ll_naver_login"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:background="#1EC800"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_logout"
-        tools:layout_editor_absoluteX="16dp">
-
-        <TextView
-            android:id="@+id/tv_naver"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="네이버로 시작하기"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:textSize="13sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:text="Click here"
+        android:backgroundTint="@color/white"/>
 </LinearLayout>

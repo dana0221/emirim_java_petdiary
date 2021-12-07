@@ -31,23 +31,6 @@ android {
 }
 
 dependencies {
-//    implementation 'lib.kingja.switchbutton:switchbutton:1.1.8'
-//    // 라디오 버튼
-//    implementation 'com.github.channguyen:rsv:1.0.1'
-//    // 시크바 연속x, 구간 선택
-//    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha'
-//    // 그래프
-
-    //네이버 로그인
-    implementation 'com.naver.nid:naveridlogin-android-sdk:4.2.6'   // import from jcenter
-
-    // naveridlogin dependencies
-    def android_x_version = "1.0.0"
-    implementation "androidx.appcompat:appcompat:$android_x_version"
-    implementation "androidx.legacy:legacy-support-core-utils:$android_x_version"
-    implementation "androidx.browser:browser:$android_x_version"
-    implementation "androidx.legacy:legacy-support-v4:$android_x_version"
-
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'

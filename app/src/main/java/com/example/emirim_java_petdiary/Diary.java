@@ -58,6 +58,23 @@ public class Diary extends AppCompatActivity {
         checkFeed = findViewById(R.id.check_feed);
         imgv = findViewById(R.id.imgv);
 
+        imgBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Home.class);
+                startActivity(intent);
+            }
+        });
+
+        btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "저장을 완료했습니다.", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), Home.class);
+                startActivity(intent);
+            }
+        });
+
         btnGallrey.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
