@@ -30,6 +30,7 @@
         android:layout_marginBottom="10dp"/>
 
     <EditText
+        android:id="@+id/diary_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="다이어리 제목"
@@ -92,6 +93,7 @@
         android:layout_marginBottom="10dp"/>
 
     <EditText
+        android:id="@+id/diary_note"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="#E4E4E4"/>
